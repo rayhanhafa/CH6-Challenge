@@ -145,7 +145,7 @@ const Cars = () => {
                                         </select>
                                     </div>
                                     <div className="col-lg-auto col-xl-auto col-md-auto">
-                                        <label className="fw-light">
+                                        <label>
                                             Jumlah Penumpang
                                         </label>
                                         <div className="input-group">

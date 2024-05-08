@@ -19,7 +19,11 @@ export default function Jumrotun() {
                                 </p>
 
                                 <div className=" gap-2 d-md-flex justify-content-md-start">
-                                    <button onClick={() => window.location.href = "/cars"} className="btn btn-sewa">Mulai Sewa Mobil</button>
+                                    <button onClick={() => window.location.href = "/cars"} className="btn btn-sewa"
+                                        style={{
+                                            background: "green", color: "white", borderRadius: "2px",
+                                            border: "none", fontSize: "14px"
+                                        }}>Mulai Sewa Mobil</button>
                                 </div>
                             </div>
                             <div className=" col-11 col-sm-11 col-lg-6">
