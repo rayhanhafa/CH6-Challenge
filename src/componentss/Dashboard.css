@@ -1,0 +1,358 @@
+body {
+    font-family: Helvetica;
+    background-color: white;
+}
+
+* {
+    z-index: 1;
+}
+
+/* Navbar Section */
+.navbar {
+    background-color: #F1F3FF;
+    z-index: 2;
+}
+
+.logo {
+    width: 100px;
+    height: 34px;
+    background: #0D28A6;
+}
+
+.btn-register {
+    width: 81px;
+    height: 36px;
+    padding: 8px, 12px, 8px, 12px;
+    border-radius: 2px;
+    gap: 10px;
+    background: #5CB85F;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+
+.btn-register:hover {
+    color: #5CB85F;
+    background-color: #FFFFFF;
+    border: 1px solid #5CB85F;
+}
+
+.nav-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: black;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.offcanvas {
+    width: 180px;
+    height: 100%px;
+}
+
+
+.offcanvas-title {
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #F1F3FF;
+}
+
+
+.h-hero {
+    font-family: Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    color: black;
+
+}
+
+.p-hero {
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: black;
+}
+
+.btn-sewa {
+    width: 150px;
+    height: 36px;
+    padding: 8px, 12px, 8px, 12px;
+    border-radius: 2px;
+    gap: 10px;
+    background: green;
+    border: none;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: white;
+}
+
+.btn-sewa:hover {
+    color: #5CB85F;
+    background-color: #FFFFFF;
+    border: 1px solid #5CB85F;
+}
+
+
+.bg-hero {
+    z-index: 1;
+}
+
+.img-hero {
+    z-index: 2;
+}
+
+@media (max-width : 767px) {
+    .container.col-xxl-8 {
+        height: 90%;
+    }
+}
+
+/* Our Service Section */
+.img-our-service {
+    width: 459px;
+    height: 428px;
+}
+
+.h-our-service {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    color: black;
+}
+
+.p-our-service {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: black;
+}
+
+.p-our-service-2 {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: black;
+}
+
+/* why us section */
+/* #why-us {
+    margin-top: 5%;
+} */
+
+.h-why-us {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+
+.p-why-us {
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.title-why-us {
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.desc-why-us {
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.card-why-us {
+    width: 268px;
+    height: 196px;
+    border-radius: 8px;
+    border: 1px;
+    gap: 10px;
+
+}
+
+@media (max-width : 767px) {
+    .card-why-us {
+        width: 100%;
+    }
+
+    .title-why-us {
+        text-align: center;
+    }
+
+    .desc-why-us {
+        text-align: center;
+    }
+}
+
+/* Testimonial Section */
+.carousel-control-prev-icon {
+    background-image: url("../assets/Vector.svg");
+}
+
+.carousel-control-next-icon {
+    background-image: url("../assets/Vector-kanan.svg");
+}
+
+.carousel {
+    background-color: #f1f3ff;
+    /* margin: auto; */
+    Width: 700px;
+    Height: 270px;
+}
+
+.h-testimonial {
+    color: black;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.p-testimonial {
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.p-comment {
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    width: 80%;
+}
+
+.p-user {
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+
+@media (max-width: 767px) {
+    .carousel {
+        width: 328px;
+        height: 452px;
+    }
+
+}
+
+/* Banner Section */
+.banner {
+    border-radius: 13px;
+    background: #0D28A6;
+    color: white;
+}
+
+.h-banner {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.p-banner {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 50%;
+}
+
+@media (max-width:360px) {
+    .banner {
+        margin-left: 5px;
+    }
+
+    .p-banner {
+        width: 80%;
+    }
+}
+
+/* FAQ Section */
+.h-faq {
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+}
+
+.p-faq {
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+/* Footer Section */
+.p-section-1 {
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+
+.p-section-2 {
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+
+@media (max-width : 767px) {
+    .section-1 {
+        width: 80%;
+    }
+}

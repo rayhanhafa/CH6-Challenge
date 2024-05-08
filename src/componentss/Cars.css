@@ -1,0 +1,46 @@
+/* cars section */
+.cars {
+    margin-top: 30px;
+}
+
+.cars .card {
+    width: 500px;
+    -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+.cars .card .card-img-top {
+    width: 277px;
+    height: 180px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.cars .card .cars__p {
+    font-size: 14px;
+    line-height: 20px;
+    height: 100px;
+}
+
+.btn-cari {
+    width: 150px;
+    height: 36px;
+    padding: 8px, 12px, 8px, 12px;
+    border-radius: 2px;
+    gap: 10px;
+    background: #5CB85F;
+    border: none;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: white;
+}
+
+.btn-cari:hover {
+    color: #5CB85F;
+    background-color: #FFFFFF;
+    border: 1px solid #5CB85F;
+}
